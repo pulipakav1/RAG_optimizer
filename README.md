@@ -2,7 +2,7 @@
 
 A comprehensive MLOps platform for benchmarking and optimizing RAG (Retrieval-Augmented Generation) pipelines. Compare multiple RAG configurations with different chunking strategies, embedding models, and reranking techniques to find the best-performing setup for your use case.
 
-## ✨ Features
+## Features
 
 - **Multi-Pipeline Benchmarking**: Test 4 different RAG pipeline configurations simultaneously
 - **LLM-as-a-Judge Evaluation**: Uses GPT-4o to evaluate accuracy, relevance, and cost-efficiency
@@ -11,7 +11,7 @@ A comprehensive MLOps platform for benchmarking and optimizing RAG (Retrieval-Au
 - **Performance Metrics**: Compare pipelines on accuracy, relevance, and cost-efficiency scores
 
 
-## 📖 Usage
+## Usage
 
 1. **Upload Documents**: Use the Streamlit UI to upload PDF or text files
 2. **Index Documents**: Click "Upload & Index" to process and index documents across all pipelines
@@ -22,7 +22,7 @@ A comprehensive MLOps platform for benchmarking and optimizing RAG (Retrieval-Au
    - Read answers from each pipeline
 
 
-## 🔧 Pipeline Configurations
+## Pipeline Configurations
 
 The system tests 4 different RAG pipeline configurations:
 
@@ -37,7 +37,7 @@ Each pipeline uses:
 - GPT-4o-mini for answer generation
 - Custom chunking with 20% overlap
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy**: How correct and factual the answer is
 - **Relevance**: How well the answer addresses the question
@@ -45,14 +45,14 @@ Each pipeline uses:
 
 Scores range from 1-10, with GPT-4o as the judge.
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 - `POST /upload` - Upload and index documents
 - `POST /ask` - Run evaluation on a question
 - `GET /status` - Check document upload status
 - `POST /reset` - Clear all indexed documents
 
-## 🛠️ Technologies
+## Technologies
 
 - **Backend**: FastAPI, ChromaDB, OpenAI API
 - **Frontend**: Streamlit, Plotly
