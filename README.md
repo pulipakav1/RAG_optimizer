@@ -1,4 +1,4 @@
-# 🧠 RAG Pipeline Optimizer
+# RAG Pipeline Optimizer
 
 A comprehensive MLOps platform for benchmarking and optimizing RAG (Retrieval-Augmented Generation) pipelines. Compare multiple RAG configurations with different chunking strategies, embedding models, and reranking techniques to find the best-performing setup for your use case.
 
